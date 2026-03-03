@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 const button = document.getElementById("music-btn");
 
 const playlist = [
-    "Two Six.mp3"
+    "Two-Six.mp3"
 ];
 
 let currentSong = 0;
