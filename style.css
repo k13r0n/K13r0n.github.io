@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Chunk;
+    src: url(fonts/Chunk.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Chunk, Arial, serif;
+    background: linear-gradient(135deg, #FF46A2, #7309E5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.alt-theme {
+    background: linear-gradient(135deg, #7309E5, #FF46A2);
+}
+
+.card {
+    background: rgb(0, 0, 0);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    backdrop-filter: blur(10px);
+}
+
+.profile-pic {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px #FF46A2;
+}
+
+.buttons a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background: #580967;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.buttons a:hover {
+    background: #8C278D;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.music-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+    width: 50px;
+    height: 50px;
+
+    background: black;
+    color: white;
+
+    border: none;
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    box-shadow: 0 0 15px #FF46A2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 22px;
+
+    transition: 0.3s;
+}
+
+.music-icon:hover {
+    transform: scale(1.1);
+}
+
+html, body {
+    overflow: hidden;
+}
