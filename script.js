@@ -2,7 +2,8 @@ function changeColor() {
     document.body.classList.toggle("alt-theme");
 }
 
-const music = document.getElementById("bg-music");
+document.addEventListener("DOMContentLoaded", () => {
+    const music = document.getElementById("bg-music");
 const button = document.getElementById("music-btn");
 
 const playlist = [
@@ -43,4 +44,6 @@ music.addEventListener("ended", () => {
 
     music.src = playlist[currentSong];
     music.play();
-});
+    });
+})
+
